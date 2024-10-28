@@ -1,2 +1,2 @@
 # Ohtuvarasto
-https://github.com/<OWNER>/<REPOSITORY>/workflows/<WORKFLOW_NAME>/badge.svg
+https://github.com/<OWNER>/<REPOSITORY>/workflows/CI/badge.svg
