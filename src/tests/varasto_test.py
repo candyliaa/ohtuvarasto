@@ -65,6 +65,3 @@ class TestVarasto(unittest.TestCase):
 
     def test_tulostus_oikein(self):
         self.assertAlmostEqual(str(self.varasto), "saldo = 0, vielä tilaa 10")
-
-    def test_rikkinainen_testi(self):
-        self.assertAlmostEqual(":)", ":(")
