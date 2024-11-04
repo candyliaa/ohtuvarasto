@@ -1,5 +1,5 @@
 class Varasto:
-    def __init__(self, tilavuus, alku_saldo = 0):
+    def __init__(self, tilavuus, alku_saldo=0):
         if tilavuus > 0.0:
             self.tilavuus = tilavuus
         else:
@@ -40,6 +40,14 @@ class Varasto:
         self.saldo = self.saldo - maara
 
         return maara
+
+    def riko_pylint(self):
+        x = 2
+        y = 5
+        z = 1
+        k = ":)"
+        p = ":("
+        l = []
 
     def __str__(self):
         return f"saldo = {self.saldo}, vielä tilaa {self.paljonko_mahtuu()}"
